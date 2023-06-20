@@ -7,3 +7,10 @@
 
 // Aide
 // Priorités en CSS : id > classe > baliseHtml
+
+const toggle = document.querySelector(".toggle-btn");
+const sideList = document.querySelector(".siside");
+
+toggle.addEventListener("click", () => {
+  sideList.classList.open();
+});
